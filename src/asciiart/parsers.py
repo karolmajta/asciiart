@@ -61,7 +61,7 @@ class BaseParser(object):
         Let's roll! If you use hooks above you probably don't need to override this
         method.
         """
-        img = self.image.resize((height, width), Image.ANTIALIAS)
+        img = self.image.resize((width, height), Image.ANTIALIAS)
         text = ""
         for y in range(0, img.size[1]):
             row = ""
