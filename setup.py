@@ -6,7 +6,7 @@ Created on 12-03-2013
 from setuptools import setup
 setup(
     name = "asciiart",
-    version = "0.1",
+    version = "0.2",
     package_dir = {'': 'src'},
     packages = [
         'asciiart',
