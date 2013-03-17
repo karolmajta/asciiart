@@ -20,7 +20,9 @@ html_template = '''
             {0}
         </head>
         </body>
-            {1}
+            <pre>
+                {1}
+            </pre>
         </body>
     </html>
     '''
