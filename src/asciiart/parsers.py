@@ -110,9 +110,7 @@ class BinaryParser(GreyscaleParser):
         self.limits[0] = threshold
 
 class HtmlGreyscaleParser(GreyscaleParser):
-    
-    def process_text(self, text):
-        return '<pre>' + text + '<pre>'
+    pass    
 
 class HtmlColorParser(HtmlGreyscaleParser):
     
